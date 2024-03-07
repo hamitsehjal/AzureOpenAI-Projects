@@ -50,10 +50,10 @@ def generate_summarization(link):
     with open(transcript_file,'r',encoding='utf-8') as f:
         transcript=f.read()
 
-    deployment_name=os.getenv("AZURE_DEPLOYMENT_NAME")
+    DEPLOYMENT_NAME=os.getenv("AZURE_DEPLOYMENT_NAME")
     # Call the OpenAI ChatCompletion endpoint using GPT-35-Turbo model
     summarized_video=client.chat.completions.create(
-        model=deployment_name,
+        model=DEPLOYMENT_NAME,
         messages=[
             {"role":"system","content":"You will be provided with a Video Transcript, and your task is to summarize the transcript as follows: \
                 -Generate a Title for the Summary \
