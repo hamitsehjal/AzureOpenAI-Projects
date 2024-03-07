@@ -37,5 +37,9 @@ python video_summarizer.py
 ## Demo
 
 ### Tweet Generator
+![tweet-generator](https://github.com/hamitsehjal/AzureOpenAI-Projects/assets/73131093/c7878230-bffc-4a57-b1c9-2c6bc1e695bf)
 
 ### Video Summarizer
+![video_summarizer](https://github.com/hamitsehjal/AzureOpenAI-Projects/assets/73131093/ce6e0dbd-7f37-4507-8c13-e722fe75b5da)
+
+
