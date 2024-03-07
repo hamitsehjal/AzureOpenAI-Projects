@@ -28,10 +28,10 @@ AZURE_API_VERSION=
 ```
 4. Run the Scripts
 ```python
-python tweet_generator.py
+python demo_tweet_generator.py
 ```
 ```python
-python video_summarizer.py
+python demo_video_summarizer.py
 ```
 
 ## Demo
