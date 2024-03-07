@@ -55,9 +55,12 @@ def generate_summarization(link):
     summarized_video=client.chat.completions.create(
         model=deployment_name,
         messages=[
-            {"role":"system","content":"You are a helpful assistant"},
-            {"role":"user","content":"Summarize the following content"},
-            {"role":"assistant","content":"yes"},
+            {"role":"system","content":"You will be provided with a Video Transcript, and your task is to summarize the transcript as follows: \
+                -Generate a Title for the Summary \
+                -Overall summary of discussion\
+                -Key takeaways \
+                -If applicable, a list of topics that the transcript highlights; Give headings to each section"
+    },
             {"role":"user","content":transcript},
         ])
     delete_file(transcript_file) # delete file from server
