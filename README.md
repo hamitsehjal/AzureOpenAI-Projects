@@ -8,12 +8,6 @@
 - Built using `Azure OpenAI GPT-35-Turbo`
 - Deployed using `Gradio`
 
-## Prerequisites
-
-1. 
-Run the following commands to install the Dependencies
-
-
 ## Setup
 
 1. Clone the Repository
